@@ -7,6 +7,8 @@ interface IMainLayoutProps {
 
 export const MainLayout: FC<IMainLayoutProps> = ({ children }) => {
     return (
-        <MainLayoutContainer>{children}</MainLayoutContainer>
+        <MainLayoutContainer>
+            {children}
+        </MainLayoutContainer>
     )
 }
