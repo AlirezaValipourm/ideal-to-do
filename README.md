@@ -68,8 +68,10 @@ npm install
 ```
 
 2. Set up environment variables:
+
+Env file is added to the repository as there is no confidential data.
 ```env
-NEXT_PUBLIC_API_URL=your_api_url
+NEXT_PUBLIC_API_URL=http://frontendtest.ideallco.com/api/todos
 ```
 
 3. Run development server:
